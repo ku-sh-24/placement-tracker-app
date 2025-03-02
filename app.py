@@ -27,4 +27,4 @@ with app.app_context():
 
 
 if __name__=="__main__": # we only want to run it when we run it directly
-  app.run(debug=True) # this will run multiple times
+  app.run(debug=True,host='0.0.0.0', port=5000) # this will run multiple times
